@@ -1,0 +1,18 @@
+#orange {
+    color: orange;
+}
+.yellow {
+    color: yellow;
+}
+p:nth-child(4) {
+    color: green;
+}
+* {
+    color: blue;
+}
+.exclude P {
+    color: indigo;
+}
+.exclude > div > main > p {
+    color: violet;
+}

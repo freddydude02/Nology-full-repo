@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Challenge</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required />
+
+            <br />
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required />
+
+            <br />
+
+            <label for="eyeColour">Eye Colour:</label>
+            <select name="eye-colors" id="eyeColour" required>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+
+            <br />
+
+            <label for="age">Age:</label>
+            <input
+                type="number"
+                id="age"
+                placeholder="Numbers only"
+                min="1"
+                max="99"
+                required
+                style="width: 300px"
+            />
+
+            <br />
+
+            <label for="message">Message:</label>
+
+            <br />
+
+            <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="message required"
+                required
+            ></textarea>
+
+            <br />
+
+            <label for="windows">Windows</label>
+            <input type="radio" id="windows" name="pc-type" required />
+
+            <br />
+
+            <label for="mac">Mac</label>
+            <input type="radio" id="mac" name="pc-type" required />
+
+            <br />
+            <br />
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

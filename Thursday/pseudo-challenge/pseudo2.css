@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+}
+p {
+    margin: 0px;
+    text-align: center;
+    border-left: solid;
+    border-right: solid;
+}
+p:first-of-type {
+    border-top: solid;
+}
+p:last-of-type {
+    border-bottom: solid;
+}
+p:nth-of-type(1) {
+    font-weight: bold;
+}
