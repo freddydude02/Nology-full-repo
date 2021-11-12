@@ -13,48 +13,30 @@ body {
     height: 75px;
     width: 75px;
     border: 1px solid;
+    animation-name: rainbow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 #tile1 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 0.5s;
-    animation-iteration-count: infinite;
 }
 #tile2 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 1s;
-    animation-iteration-count: infinite;
 }
 #tile3 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 1.5s;
-    animation-iteration-count: infinite;
 }
 #tile4 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 2s;
-    animation-iteration-count: infinite;
 }
 #tile5 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 2.5s;
-    animation-iteration-count: infinite;
 }
 #tile6 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 3s;
-    animation-iteration-count: infinite;
 }
 #tile7 {
-    animation-name: rainbow;
-    animation-duration: 8s;
     animation-delay: 3.5s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes rainbow {
