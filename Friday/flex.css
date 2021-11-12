@@ -1,0 +1,33 @@
+.container-cont {
+    display: flex;
+    justify-content: center;
+}
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 900px;
+    justify-content: space-between;
+}
+.card {
+    height: 100%;
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blue {
+    background-color: lightskyblue;
+}
+#orange {
+    background-color: orange;
+}
+#pink {
+    background-color: hotpink;
+}
+#crimson {
+    background-color: crimson;
+}
+#green {
+    background-color: lightgreen;
+}
