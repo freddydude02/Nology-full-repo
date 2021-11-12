@@ -1,0 +1,55 @@
+.content-holder {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    /* height: 600px; */
+    width: 600px;
+}
+.card-holder-v {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.card-holder-h {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-top: 10px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+#steelBlue {
+    background-color: lightsteelblue;
+}
+#salmon {
+    background-color: salmon;
+}
+#lightGreen {
+    background-color: lightgreen;
+}
+#lightSalmon {
+    background-color: lightsalmon;
+}
+#pink {
+    background-color: pink;
+}
+#grey {
+    background-color: grey;
+}
+#lightBlue {
+    background-color: lightskyblue;
+}
+#cornflowerBlue {
+    background-color: cornflowerblue;
+}
+p {
+    font-weight: bold;
+}
