@@ -1,0 +1,9 @@
+.inner-cont {
+    border: solid red;
+    background-color: #ff69b4;
+    background-clip: content-box;
+    padding: 20px 0px;
+}
+.container {
+    background-color: lightgreen;
+}
