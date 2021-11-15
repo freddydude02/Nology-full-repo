@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+.main {
+    display: grid;
+    height: 100vw;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "one one two"
+        "three . two"
+        "three four four";
+    gap: 2px;
+}
+
+.green {
+    background-color: lightgreen;
+    grid-area: one;
+}
+.yellow {
+    background-color: bisque;
+    grid-area: two;
+}
+.red {
+    background-color: salmon;
+    grid-area: three;
+}
+.purple {
+    background-color: plum;
+    grid-area: four;
+}

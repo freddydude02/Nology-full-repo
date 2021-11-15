@@ -4,9 +4,19 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50vh 50vh;
+    grid-template-rows: 30px 1fr 1fr 1fr;
     grid-gap: 20px;
+    height: 100vh;
 }
 .card {
     background-color: lightgreen;
+    padding-top: 20px;
+}
+.heading {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+#fav {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
 }
