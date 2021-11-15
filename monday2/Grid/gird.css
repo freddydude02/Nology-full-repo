@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 20px;
+}
+.card {
+    background-color: lightgreen;
+}
