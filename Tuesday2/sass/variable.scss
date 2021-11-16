@@ -1,0 +1,73 @@
+$colorCoral: coral;
+$colorBlue: blue;
+$fontTheme: Arial, Helvetica, sans-serif;
+$borderTheme: 2px solid;
+
+.document {
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__border {
+        &--first-section {
+            border: 3px dashed green;
+        }
+        &--second-section {
+            border: $borderTheme $colorCoral;
+        }
+    }
+    &__second-header--centered {
+        text-align: center;
+    }
+    &__paragraph {
+        &--blue {
+            color: $colorBlue;
+        }
+        &--line-through {
+            text-decoration: line-through;
+        }
+        &--right-align {
+            text-align: right;
+        }
+    }
+}
+
+.document2 {
+    &__box1--border {
+        border: $borderTheme black;
+    }
+    &__box-header {
+        &--blue {
+            color: $colorBlue;
+        }
+        &--font {
+            font-family: $fontTheme;
+            font-size: 24px;
+        }
+    }
+    &__box-par {
+        &--red {
+            color: red;
+        }
+        &--underln {
+            text-decoration: underline;
+        }
+        &--font {
+            font-family: $fontTheme;
+            font-size: 18px;
+        }
+        &--coral {
+            color: $colorCoral;
+        }
+        &--bold {
+            font-weight: bold;
+        }
+        &--brown {
+            color: brown;
+        }
+    }
+    &__li {
+        &--no-bullet {
+            list-style-type: none;
+            font-size: 12px;
+        }
+    }
+}

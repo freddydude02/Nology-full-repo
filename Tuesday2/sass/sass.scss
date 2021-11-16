@@ -1,0 +1,53 @@
+.border {
+    border: 3px solid;
+
+    &__dashed-green {
+        border-style: dashed;
+        border-color: green;
+    }
+
+    &__coral {
+        border-color: coral;
+    }
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__align-center {
+        text-align: center;
+    }
+
+    &__blue {
+        color: blue;
+    }
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__blue {
+        color: blue;
+        text-decoration: line-through;
+    }
+    &--right {
+        text-align: right;
+    }
+
+    &__red-underline {
+        color: red;
+        text-decoration: underline;
+    }
+    &__coral {
+        color: coral;
+        &--bold {
+            font-weight: bold;
+        }
+    }
+    &__list {
+        list-style-type: none;
+        margin-left: 50px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    &__brown {
+        color: brown;
+    }
+}

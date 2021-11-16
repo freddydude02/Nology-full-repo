@@ -1,0 +1,51 @@
+.border {
+  border: 3px solid;
+}
+.border__dashed-green {
+  border-style: dashed;
+  border-color: green;
+}
+.border__coral {
+  border-color: coral;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header__align-center {
+  text-align: center;
+}
+.header__blue {
+  color: blue;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text__blue {
+  color: blue;
+  text-decoration: line-through;
+}
+.text--right {
+  text-align: right;
+}
+.text__red-underline {
+  color: red;
+  text-decoration: underline;
+}
+.text__coral {
+  color: coral;
+}
+.text__coral--bold {
+  font-weight: bold;
+}
+.text__list {
+  list-style-type: none;
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.text__brown {
+  color: brown;
+}
+
+/*# sourceMappingURL=sass.css.map */
