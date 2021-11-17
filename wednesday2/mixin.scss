@@ -1,0 +1,21 @@
+@import "btn";
+@import "structure";
+
+.container {
+    @include item-align;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+    &__btn {
+        &--button {
+            @include Btn(red, dotted);
+        }
+        &--chip {
+            @include Btn(blue, solid);
+        }
+        &--pill {
+            @include Btn(blue, dashed);
+        }
+    }
+}
