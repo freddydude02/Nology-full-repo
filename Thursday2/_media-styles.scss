@@ -1,0 +1,36 @@
+.stripe1 {
+    @include mqmobile {
+        @include flex-mix(column);
+        background-color: black;
+    }
+    @include mqtablet {
+        @include flex-mix(row);
+        background-color: black;
+    }
+    @include mqdesktop {
+        @include flex-mix(row);
+        background-color: green;
+    }
+}
+.stripe2 {
+    @include mqmobile {
+        background-color: red;
+    }
+    @include mqtablet {
+        background-color: yellow;
+    }
+    @include mqdesktop {
+        background-color: white;
+    }
+}
+.stripe3 {
+    @include mqmobile {
+        background-color: yellow;
+    }
+    @include mqtablet {
+        background-color: white;
+    }
+    @include mqdesktop {
+        background-color: orange;
+    }
+}
