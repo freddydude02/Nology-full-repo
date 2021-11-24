@@ -36,27 +36,27 @@
 //         console.log("This isn't a day");
 // }
 
-// function calcMyAge(age) {
-//     let ageInDays = age * 365;
-//     let ageInSeconds = ageInDays * (24 * 60 * 60);
-//     return ageInDays + " and " + ageInSeconds;
-// }
+function calcMyAge(age) {
+    let ageInDays = age * 365;
+    let ageInSeconds = ageInDays * (24 * 60 * 60);
+    return ageInDays + " and " + ageInSeconds;
+}
 // console.log(calcMyAge(19));
 
 function areaCalc(radius) {
     let area = Math.PI * radius ** 2;
     return area;
 }
-console.log(areaCalc(3));
+// console.log(areaCalc(3));
 
 function circumCalc(radius) {
     let circumference = 2 * radius * Math.PI;
     return circumference;
 }
-console.log(circumCalc(3));
+// console.log(circumCalc(3));
 
-// function moonCalc(earthDays) {
-//     let moonOrbit = earthDays / 27;
-//     return moonOrbit;
-// }
+function moonCalc(earthDays) {
+    let moonOrbit = earthDays / 27;
+    return moonOrbit;
+}
 // console.log(moonCalc(27));
