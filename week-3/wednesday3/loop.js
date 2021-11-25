@@ -11,10 +11,7 @@ first();
 function first() {
     if (sum < 55) {
         sum += array[i];
-        second();
+        i++;
+        first();
     } else console.log(sum);
-}
-function second() {
-    i++;
-    first();
 }
