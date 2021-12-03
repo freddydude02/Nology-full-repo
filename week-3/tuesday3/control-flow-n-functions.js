@@ -60,3 +60,13 @@ function moonCalc(earthDays) {
     return moonOrbit;
 }
 // console.log(moonCalc(27));
+
+let alpha = ["a", "l", "p", "h", "a", "b", "e", "t"];
+let consonant = [];
+for (i = 0; i < alpha.length; i++) {
+    let check = /^aeiou/;
+    if (check.test(alpha[i])) {
+        consonant.push[alpha[i]];
+    }
+}
+console.log(consonant);
