@@ -1,0 +1,9 @@
+@import "../../assets/styles/FlexMix.scss";
+
+.Card {
+    @include flexMix(column, center, center);
+    border: 2px solid red;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+}

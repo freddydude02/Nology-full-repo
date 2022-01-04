@@ -1,0 +1,8 @@
+@import "../../assets/styles/FlexMix.scss";
+.card-container {
+    margin: 0px;
+    padding: 0px;
+    @include flexMix(unset, center, unset);
+    flex-wrap: wrap;
+    gap: 20px;
+}
